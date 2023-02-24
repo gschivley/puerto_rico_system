@@ -1,0 +1,6 @@
+region_from,region_to,firm_ttc_mw,line_loss_frac
+North,South,523.71,0.02
+North,East,1013.265,0.02
+North,West,767.97,0.02
+South,East,1276.155,0.02
+South,West,311.535,0.02

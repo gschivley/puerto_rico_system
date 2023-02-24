@@ -1,0 +1,32 @@
+﻿Row Labels,Sum of Nameplate Capacity (MW),Sum of Minimum Load (MW),Min Power
+All Other,1719.2,319.2,0.185667752
+Batteries,1529.5,433.8,0.283622099
+Coal Integrated Gasification Combined Cycle,997.4,482,0.483256467
+Conventional Hydroelectric,79895.6,23066.7,0.288710517
+Conventional Steam Coal,233128.9,86764.3,0.372173077
+Flywheels,47,6,0.127659574
+Geothermal,3864.6,1017.1,0.263183771
+Hydroelectric Pumped Storage,21969.3,10284.5,0.468130528
+Landfill Gas,1990,937.9,0.471306533
+Municipal Solid Waste,2553.2,444.5,0.174095253
+Natural Gas Fired Combined Cycle,310757.9,138511.9,0.44572286
+Natural Gas Fired Combustion Turbine,153687.2,73097.2,0.475623214
+Natural Gas Internal Combustion Engine,5353.3,2322.9,0.433919265
+Natural Gas Steam Turbine,81514.5,18294.4,0.224431236
+Natural Gas with Compressed Air Storage,110,30,0.272727273
+Nuclear,100898.8,45206.6,0.448039025
+Offshore Wind Turbine,30,0.1,0.003333333
+Onshore Wind Turbine,118698.2,6819.9,0.0574558
+Other Gases,2618.4,548.6,0.209517262
+Other Natural Gas,257.8,122.8,0.476338247
+Other Waste Biomass,717.5,248.9,0.346898955
+Petroleum Coke,1638.7,756.5,0.461646427
+Petroleum Liquids,30432.5,10418.7,0.342354391
+Solar Photovoltaic,46578.4,381.4,0.008188345
+Solar Thermal with Energy Storage,405,0,0
+Solar Thermal without Energy Storage,1355.1,58.4,0.04309645
+Wood/Wood Waste Biomass,9491.3,2526.1,0.266149
+Petroleum Liquids with CC,,,0.44572286
+Petroleum Liquids with GT,,,0.475623214
+Petroleum Liquids with ST,,,0.224431236
+Petroleum Liquids with IC,,,0.342354391

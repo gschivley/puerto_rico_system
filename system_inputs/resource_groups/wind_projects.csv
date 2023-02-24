@@ -1,0 +1,5 @@
+﻿cpa_id,cpa_mw,region,metro_id,interconnect_annuity,lcoe,interconnect_capex_mw
+1,10000,North,a1,1550.54,34,32000
+2,10000,South,a1,1550.54,33,32000
+3,10000,East,a1,1550.54,45,32000
+4,10000,West,a1,1550.54,43,32000

@@ -1,0 +1,10 @@
+{
+    "technology": "landbasedwind",
+    "tree": [
+        "region"
+    ],
+    "existing": false,
+    "metadata": "wind_(region_)_False_metadata.csv",
+    "site_cluster": "wind_(region_)_False_site_cluster.csv",
+    "profiles": "existing_wind_profiles.csv"
+}

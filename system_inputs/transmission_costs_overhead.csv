@@ -1,0 +1,6 @@
+region_from,region_to,total_line_loss_frac,total_interconnect_cost_mw,wacc_real,investment_years,total_interconnect_annuity_mw,dollar_year
+North,South,0.02,100000,0.044,60,4759.35,2018
+North,East,0.02,100000,0.044,60,4759.35,2018
+North,West,0.02,100000,0.044,60,4759.35,2018
+South,East,0.02,100000,0.044,60,4759.35,2018
+South,West,0.02,100000,0.044,60,4759.35,2018

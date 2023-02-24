@@ -1,0 +1,10 @@
+﻿region,technology,cluster,spur_miles,max_capacity
+A,NGCT,,20,-1
+A,NGCC_CCS,,50,-1
+A,battery,,0,-1
+B,NGCT,,20,-1
+B,NGCC_CCS,,50,-1
+B,battery,,0,-1
+C,NGCT,,20,-1
+C,NGCC_CCS,,50,-1
+C,battery,,0,-1

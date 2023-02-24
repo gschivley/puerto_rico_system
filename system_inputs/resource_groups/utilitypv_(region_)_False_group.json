@@ -1,0 +1,10 @@
+{
+    "technology": "utilitypv",
+    "tree": [
+        "region"
+    ],
+    "existing": false,
+    "metadata": "utilitypv_(region_)_False_metadata.csv",
+    "site_cluster": "utilitypv_(region_)_False_site_cluster.csv",
+    "profiles": "existing_solarpv_profiles.csv"
+}

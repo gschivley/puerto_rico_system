@@ -1,0 +1,5 @@
+region,interconnect_annuity,lcoe,interconnect_capex_mw,mw,id,parent_id,level
+North,1550.54,45,32000,10000,North,,1
+South,1550.54,42,32000,10000,South,,1
+East,1550.54,32,32000,10000,East,,1
+West,1550.54,43,32000,10000,West,,1

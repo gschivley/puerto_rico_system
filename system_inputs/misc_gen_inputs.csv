@@ -1,0 +1,20 @@
+﻿Resource,Min_Power,Self_Disch,Eff_Up,Eff_Down,Min_Duration,Max_Duration,Ramp_Up_Percentage,Ramp_Dn_Percentage,Up_Time,Down_Time,Min_Share_percent,Max_Share_percent,Existing_Charge_Cap_MW,Var_OM_Cost_per_MWh,Var_OM_Cost_per_MWh_In,Reg_Cost,Rsv_Cost,Reg_Max,Rsv_Max,Max_Charge_Cap_MW,Min_Charge_Cap_MW
+batteries,0,0,0.92,0.92,0,10,1,1,0,0,0,0,0,0.15,0.15,0,0,0,0,0,0
+battery,0,0,0.92,0.92,1,10,1,1,0,0,0,0,0,0.15,0.15,0,0,0,0,0,0
+conventional_hydroelectric,,0,1,1,0,0,1,1,0,0,0,0,0,,,0,0,0,0,0,0
+conventional_steam_coal,0.5,0,1,1,0,0,0.57,0.57,24,24,0,0,0,,,0,0,0.095,0.19,0,0
+landbasedwind_class3,,0,1,1,0,0,1,1,0,0,0,0,0,,,0,0,0,0,0,0
+natural_gas_fired_combined_cycle,,0,1,1,0,0,0.64,0.64,6,6,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+natural_gas_fired_combustion_turbine,,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+natural_gas_internal_combustion_engine,,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+natural_gas_steam_turbine,,0,1,1,0,0,0.64,0.64,6,6,0,0,0,,,0,0,0.63,1.26,0,0
+naturalgas_ccavgcf,0.3,0,1,1,0,0,0.64,0.64,6,6,0,0,0,,,0,0,0,0,0,0
+naturalgas_ctavgcf,0.3,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0,0,0,0
+onshore_wind_turbine,,0,1,1,0,0,1,1,0,0,0,0,0,,,0,0,0,0,0,0
+solar_photovoltaic,,0,1,1,0,0,1,1,0,0,0,0,0,,,0,0,0,0,0,0
+utilitypv_class1,,0,1,1,0,0,1,1,0,0,0,0,0,,,0,0,0,0,0,0
+petroleum liquids with cc,,0,1,1,0,0,0.64,0.64,6,6,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+petroleum liquids with st,,0,1,1,0,0,0.64,0.64,6,6,0,0,0,,,0,0,0.63,1.26,0,0
+petroleum liquids with ic,,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+petroleum liquids with gt,,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0.106666667,0.213333333,0,0
+landfill_gas,,0,1,1,0,0,3.78,3.78,1,1,0,0,0,,,0,0,0.106666667,0.213333333,0,0
