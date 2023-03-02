@@ -67,9 +67,9 @@ cost_multiplier_technology_map:
   - NaturalGas_CC
   - NaturalGas_CT
   utilitypv:
-  - utilitypv
+  - UtilityPV_Class1
   wind:
-  - landbasedwind
+  - LandbasedWind_Class3
 data_years:
 - 2020
 default_model_tag: 0
