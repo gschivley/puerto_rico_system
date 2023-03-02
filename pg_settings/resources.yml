@@ -242,8 +242,8 @@ cost_multiplier_region_map:
 # If a value in one of the lists matches more than one technology, the cost multiplier
 # will only be applied to the first technology.
 cost_multiplier_technology_map:
-  utilitypv: [utilitypv]
-  wind: [landbasedwind]
+  utilitypv: [UtilityPV_Class1]
+  wind: [LandbasedWind_Class3]
   natgas: [NaturalGas_CC, NaturalGas_CT]
   battery: [Battery_*]
 
