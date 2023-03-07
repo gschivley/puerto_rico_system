@@ -1,0 +1,249 @@
+2023-03-07 10:18:01 [    INFO] powergenome:163 Reading settings file
+2023-03-07 10:18:01 [ WARNING] powergenome.util:175 
+            The settings parameter named historical_load_region_maps has been changed to historical_load_region_map. Please correct it in
+            your settings file.
+
+            
+2023-03-07 10:18:01 [    INFO] powergenome:174 Initiating PUDL connections
+2023-03-07 10:18:02 [ WARNING] powergenome.util:316 
+    *****************************
+    The ATB technology "NaturalGas_CTAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-03-07 10:18:02 [ WARNING] powergenome.util:316 
+    *****************************
+    The ATB technology "NaturalGas_CCAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-03-07 10:18:02 [ WARNING] powergenome.util:367 
+    *****************************
+    The model region North is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:18:02 [ WARNING] powergenome.util:367 
+    *****************************
+    The model region South is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:18:02 [ WARNING] powergenome.util:367 
+    *****************************
+    The model region East is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:18:02 [ WARNING] powergenome.util:367 
+    *****************************
+    The model region West is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:18:02 [ WARNING] powergenome:196 One or more model regions is not valid. Check to make sure all regions are either in IPM or region_aggregations in the settings YAML file.
+2023-03-07 10:18:02 [    INFO] powergenome:204 Sorted zones are East, North, South, West
+2023-03-07 10:18:02 [ WARNING] powergenome.util:864 The parameter value 'mid' from column 'renewable_cost' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'p1' will not be modified to reflect this scenario.
+2023-03-07 10:18:02 [ WARNING] powergenome.util:864 The parameter value 'no' from column 'limit_nat_gas' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'p1' will not be modified to reflect this scenario.
+2023-03-07 10:18:08 [    INFO] powergenome.generators:2803 Loading map of plants to IPM regions
+2023-03-07 10:21:28 [    INFO] powergenome:162 Reading settings file
+2023-03-07 10:21:28 [ WARNING] powergenome.util:73 
+            The settings parameter named historical_load_region_maps has been changed to historical_load_region_map. Please correct it in
+            your settings file.
+
+            
+2023-03-07 10:21:28 [    INFO] powergenome:173 Initiating PUDL connections
+2023-03-07 10:21:30 [ WARNING] powergenome.util:217 
+    *****************************
+    The ATB technology "NaturalGas_CTAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-03-07 10:21:30 [ WARNING] powergenome.util:217 
+    *****************************
+    The ATB technology "NaturalGas_CCAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-03-07 10:21:30 [ WARNING] powergenome.util:268 
+    *****************************
+    The model region North is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:21:30 [ WARNING] powergenome.util:268 
+    *****************************
+    The model region South is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:21:30 [ WARNING] powergenome.util:268 
+    *****************************
+    The model region East is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:21:30 [ WARNING] powergenome.util:268 
+    *****************************
+    The model region West is not included in the settings parameter `aeo_fuel_region_map`"
+    *****************************
+            
+2023-03-07 10:21:30 [ WARNING] powergenome:198 One or more model regions is not valid. Check to make sure all regions are either in IPM or region_aggregations in the settings YAML file.
+2023-03-07 10:21:30 [    INFO] powergenome:206 Sorted zones are East, North, South, West
+2023-03-07 10:21:32 [    INFO] powergenome.generators:589 No retirement dates changed based on the settings file
+2023-03-07 10:21:32 [    INFO] powergenome.generators:3241 Creating technology clusters by region
+2023-03-07 10:21:34 [    INFO] powergenome.generators:3349 Finalizing generation clusters
+2023-03-07 10:21:34 [    INFO] powergenome.generators:3351 Results technologies are ['Batteries', 'Conventional Hydroelectric', 'Landfill Gas', 'Natural Gas Internal Combustion Engine', 'Petroleum Liquids with GT', 'Petroleum Liquids with IC', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'Petroleum Liquids with CC', 'Petroleum Liquids with ST', 'Natural Gas Fired Combined Cycle', 'Natural Gas Steam Turbine']
+2023-03-07 10:21:34 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:34 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:34 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:35 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:38 [    INFO] powergenome.nrelatb:72 Loading NREL ATB data
+2023-03-07 10:21:39 [    INFO] powergenome.nrelatb:178 Using UtilityPV Market WACC for Battery storage.
+2023-03-07 10:21:39 [    INFO] powergenome.nrelatb:263 PV costs are already in AC units, not inflating the cost.
+2023-03-07 10:21:39 [    INFO] powergenome.nrelatb:1074 Creating new resources for each region.
+2023-03-07 10:21:40 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:40 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:40 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:40 [    INFO] powergenome.external_data:164 Inflating external interconnect annuity costs from 2017 to 2020
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:2385 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:40 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:40 [    INFO] powergenome.generators:3607 Capacity of 4752.698 MW in final clusters
+2023-03-07 10:21:42 [    INFO] powergenome:274 
+Finished first round with year 2030 scenario p1
+
+2023-03-07 10:21:42 [    INFO] powergenome.GenX:900 0 resources have Min_Power larger than hourly generation.
+2023-03-07 10:21:42 [    INFO] powergenome.load_profiles:620 Loading load curves
+2023-03-07 10:21:42 [    INFO] powergenome.load_profiles:554 Loading user supplied load profile.
+2023-03-07 10:21:43 [ WARNING] powergenome.transmission:54 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:43 [ WARNING] powergenome.transmission:217 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:43 [    INFO] powergenome.transmission:232 Loading transmission constraints from PUDL
+2023-03-07 10:21:43 [    INFO] powergenome.transmission:110 Map and aggregate region names for transmission constraints
+2023-03-07 10:21:43 [    INFO] powergenome.transmission:131 Build a new transmission constraints dataframe with a single line between regions
+2023-03-07 10:21:43 [    INFO] powergenome:304 
+Starting year 2030 scenario p2
+
+2023-03-07 10:21:43 [    INFO] powergenome.generators:589 No retirement dates changed based on the settings file
+2023-03-07 10:21:43 [    INFO] powergenome.generators:3241 Creating technology clusters by region
+2023-03-07 10:21:44 [    INFO] powergenome.generators:3349 Finalizing generation clusters
+2023-03-07 10:21:44 [    INFO] powergenome.generators:3351 Results technologies are ['Batteries', 'Conventional Hydroelectric', 'Landfill Gas', 'Natural Gas Internal Combustion Engine', 'Petroleum Liquids with GT', 'Petroleum Liquids with IC', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'Petroleum Liquids with CC', 'Petroleum Liquids with ST', 'Natural Gas Fired Combined Cycle', 'Natural Gas Steam Turbine']
+2023-03-07 10:21:44 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:44 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:44 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:45 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:46 [    INFO] powergenome.nrelatb:72 Loading NREL ATB data
+2023-03-07 10:21:46 [    INFO] powergenome.nrelatb:178 Using UtilityPV Market WACC for Battery storage.
+2023-03-07 10:21:47 [    INFO] powergenome.nrelatb:263 PV costs are already in AC units, not inflating the cost.
+2023-03-07 10:21:47 [    INFO] powergenome.nrelatb:1074 Creating new resources for each region.
+2023-03-07 10:21:47 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:47 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:47 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:47 [    INFO] powergenome.external_data:164 Inflating external interconnect annuity costs from 2017 to 2020
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:2385 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:47 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:47 [    INFO] powergenome.generators:3607 Capacity of 4752.698 MW in final clusters
+2023-03-07 10:21:48 [    INFO] powergenome.GenX:900 0 resources have Min_Power larger than hourly generation.
+2023-03-07 10:21:48 [    INFO] powergenome.load_profiles:620 Loading load curves
+2023-03-07 10:21:48 [    INFO] powergenome.load_profiles:554 Loading user supplied load profile.
+2023-03-07 10:21:49 [ WARNING] powergenome.transmission:54 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:49 [ WARNING] powergenome.transmission:217 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:49 [    INFO] powergenome.transmission:232 Loading transmission constraints from PUDL
+2023-03-07 10:21:49 [    INFO] powergenome.transmission:110 Map and aggregate region names for transmission constraints
+2023-03-07 10:21:49 [    INFO] powergenome.transmission:131 Build a new transmission constraints dataframe with a single line between regions
+2023-03-07 10:21:49 [    INFO] powergenome:304 
+Starting year 2030 scenario p3
+
+2023-03-07 10:21:49 [    INFO] powergenome.generators:589 No retirement dates changed based on the settings file
+2023-03-07 10:21:49 [    INFO] powergenome.generators:3241 Creating technology clusters by region
+2023-03-07 10:21:50 [    INFO] powergenome.generators:3349 Finalizing generation clusters
+2023-03-07 10:21:50 [    INFO] powergenome.generators:3351 Results technologies are ['Batteries', 'Conventional Hydroelectric', 'Landfill Gas', 'Natural Gas Internal Combustion Engine', 'Petroleum Liquids with GT', 'Petroleum Liquids with IC', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'Petroleum Liquids with CC', 'Petroleum Liquids with ST', 'Natural Gas Fired Combined Cycle', 'Natural Gas Steam Turbine']
+2023-03-07 10:21:50 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:50 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:50 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:50 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:51 [    INFO] powergenome.nrelatb:72 Loading NREL ATB data
+2023-03-07 10:21:51 [    INFO] powergenome.nrelatb:178 Using UtilityPV Market WACC for Battery storage.
+2023-03-07 10:21:52 [    INFO] powergenome.nrelatb:263 PV costs are already in AC units, not inflating the cost.
+2023-03-07 10:21:52 [    INFO] powergenome.nrelatb:1074 Creating new resources for each region.
+2023-03-07 10:21:52 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:52 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:52 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:52 [    INFO] powergenome.external_data:164 Inflating external interconnect annuity costs from 2017 to 2020
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:2385 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:52 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:52 [    INFO] powergenome.generators:3607 Capacity of 4752.698 MW in final clusters
+2023-03-07 10:21:53 [    INFO] powergenome.GenX:900 0 resources have Min_Power larger than hourly generation.
+2023-03-07 10:21:53 [    INFO] powergenome.load_profiles:620 Loading load curves
+2023-03-07 10:21:53 [    INFO] powergenome.load_profiles:554 Loading user supplied load profile.
+2023-03-07 10:21:54 [ WARNING] powergenome.transmission:54 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:54 [ WARNING] powergenome.transmission:217 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:54 [    INFO] powergenome.transmission:232 Loading transmission constraints from PUDL
+2023-03-07 10:21:54 [    INFO] powergenome.transmission:110 Map and aggregate region names for transmission constraints
+2023-03-07 10:21:54 [    INFO] powergenome.transmission:131 Build a new transmission constraints dataframe with a single line between regions
+2023-03-07 10:21:54 [    INFO] powergenome:304 
+Starting year 2030 scenario p4
+
+2023-03-07 10:21:54 [    INFO] powergenome.generators:589 No retirement dates changed based on the settings file
+2023-03-07 10:21:54 [    INFO] powergenome.generators:3241 Creating technology clusters by region
+2023-03-07 10:21:55 [    INFO] powergenome.generators:3349 Finalizing generation clusters
+2023-03-07 10:21:55 [    INFO] powergenome.generators:3351 Results technologies are ['Batteries', 'Conventional Hydroelectric', 'Landfill Gas', 'Natural Gas Internal Combustion Engine', 'Petroleum Liquids with GT', 'Petroleum Liquids with IC', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'Petroleum Liquids with CC', 'Petroleum Liquids with ST', 'Natural Gas Fired Combined Cycle', 'Natural Gas Steam Turbine']
+2023-03-07 10:21:55 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:55 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:55 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:55 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:56 [    INFO] powergenome.nrelatb:72 Loading NREL ATB data
+2023-03-07 10:21:56 [    INFO] powergenome.nrelatb:178 Using UtilityPV Market WACC for Battery storage.
+2023-03-07 10:21:57 [    INFO] powergenome.nrelatb:263 PV costs are already in AC units, not inflating the cost.
+2023-03-07 10:21:57 [    INFO] powergenome.nrelatb:1074 Creating new resources for each region.
+2023-03-07 10:21:57 [    INFO] powergenome.generators:255 Adding non-fuel startup costs
+2023-03-07 10:21:57 [    INFO] powergenome.generators:265 Changing non-fuel VOM costs from 2011 to 2020
+2023-03-07 10:21:57 [    INFO] powergenome.generators:281 Changing non-fuel startup costs from 2011 to 2020
+2023-03-07 10:21:57 [    INFO] powergenome.external_data:164 Inflating external interconnect annuity costs from 2017 to 2020
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:2385 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for Commit ('Commit')
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for ESR_2 ('ESR_2')
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for Hydro_Energy_to_Power_Ratio ('Hydro_Energy_to_Power_Ratio')
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for Reg_Max ('Reg_Max')
+2023-03-07 10:21:57 [ WARNING] powergenome.generators:1395 No model tag values found for Rsv_Max ('Rsv_Max')
+2023-03-07 10:21:57 [    INFO] powergenome.generators:3607 Capacity of 4752.698 MW in final clusters
+2023-03-07 10:21:58 [    INFO] powergenome.GenX:900 0 resources have Min_Power larger than hourly generation.
+2023-03-07 10:21:58 [    INFO] powergenome.load_profiles:620 Loading load curves
+2023-03-07 10:21:58 [    INFO] powergenome.load_profiles:554 Loading user supplied load profile.
+2023-03-07 10:21:59 [ WARNING] powergenome.transmission:54 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:59 [ WARNING] powergenome.transmission:217 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-03-07 10:21:59 [    INFO] powergenome.transmission:232 Loading transmission constraints from PUDL
+2023-03-07 10:21:59 [    INFO] powergenome.transmission:110 Map and aggregate region names for transmission constraints
+2023-03-07 10:21:59 [    INFO] powergenome.transmission:131 Build a new transmission constraints dataframe with a single line between regions
