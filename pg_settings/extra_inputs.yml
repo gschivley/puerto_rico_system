@@ -11,7 +11,7 @@ misc_gen_inputs_fn: misc_gen_inputs.csv
 regional_load_fn: load_profiles_PR.csv
 user_transmission_costs_fn: transmission_costs.csv
 user_transmission_constraints_fn: existing_transmission_capacity.csv
-existing_generators_fn: existing_generators_with_om.csv
+existing_generators_fn: existing_generators_with_om_retire.csv
 plant_region_map_fn: plant_region.csv
 # cpi_data_fn: price_index.csv
 cost_multiplier_fn: regional_cost_corrections.csv

@@ -1,0 +1,77 @@
+plant_id,generator_id,unit_id,technology,operating_date,planned_retirement_date,capacity_mwh,capacity_mw,heat_rate_mmbtu_mwh,min_power,minimum_load_mw,capacity_factor,plant_name,county,prime_mover,zone,fixed_o_m_mwh,fixed_o_m_mw,variable_o_m_mwh
+61014,1,61014_1,Onshore Wind Turbine,11/1/12,,,75,10.34,0.06,4.5,,Pattern Santa Isabel LLC,Santa Isabel,WT,South,0,43000,0
+61034,CT1,61034_CT1,Natural Gas Fired Combined Cycle,9/1/18,,,183,11.87,0.45,82.35,,EcoElectrica,Penuelas,CT,South,0,9787,3.61102
+61034,CT2,61034_CT2,Natural Gas Fired Combined Cycle,3/1/00,,,183,11.87,0.45,82.35,,EcoElectrica,Penuelas,CT,South,0,9787,3.61102
+61034,STG,61034_STG,Natural Gas Fired Combined Cycle,3/1/00,,,214,11.87,0.45,96.3,,EcoElectrica,Penuelas,CA,South,0,9787,3.61102
+61036,ILUMI,61036_ILUMI,Solar Photovoltaic,11/1/12,11/1/42,,17.5,10.34,0.01,0.175,,AES ILUMINA,Guayama,PV,South,0,22623,0
+61062,CLSF,61062_CLSF,Solar Photovoltaic,2/1/20,,,10,10.34,0.01,0.1,,Coto Laurel Solar Farm,Ponce,PV,South,0,22623,0
+61063,MATNO,61063_MATNO,Solar Photovoltaic,1/1/11,,,3.6,10.34,0.01,0.036,,Martino,Ponce,PV,South,0,22623,0
+61064,PFGY,61064_PFGY,Solar Photovoltaic,1/1/16,,,2.7,10.34,0.01,0.027,,Pfizer Guayama,Guayama,PV,South,0,22623,0
+61065,PFVB,61065_PFVB,Solar Photovoltaic,1/1/16,,,3.1,10.34,0.01,0.031,,Pfizer Vega Baja,Vega Baja,PV,North,0,22623,0
+61083,BAT1,61083_BAT1,Batteries,12/1/16,,4.2,21.8,10.34,0,0,,Oriana Energy Hybrid,Isabela,BA,West,9236,6235,0.03
+61083,G001,61083_G001,Solar Photovoltaic,12/1/16,,,45,10.34,0.01,0.45,,Oriana Energy Hybrid,Isabela,PV,West,0,22623,0
+61102,UNIT1,61102_UNIT1,Solar Photovoltaic,4/1/14,,,5,10.34,0.01,0.05,,"GASNA 18P, LLC",San Juan,PV,North,0,22623,0
+61109,PE558,61109_PE558,Landfill Gas,10/1/16,,,2.4,10.34,0.47,1.128,,Fajardo MSWL,Fajardo,IC,East,0,21000,5.31893
+61110,BESS,61110_BESS,Batteries,12/1/15,,0.3,3.6,10.34,0,0,,San Fermin Solar Farm Hybrid,Canovanas,BA,East,9236,6235,0.03
+61110,DSL,61110_DSL,Petroleum Liquids with IC,12/1/15,,,4,10.15,0.34,1.36,,San Fermin Solar Farm Hybrid,Canovanas,IC,East,0,21000,5.22119
+61110,PV,61110_PV,Solar Photovoltaic,12/1/15,,,20,10.34,0.01,0.2,,San Fermin Solar Farm Hybrid,Canovanas,PV,East,0,22623,0
+61112,YUNQ,61112_YUNQ,Solar Photovoltaic,11/1/13,,,2,10.34,0.01,0.02,,El Yunque Filtration Plant,Rio Grande,PV,East,0,22623,0
+61113,AREC,61113_AREC,Solar Photovoltaic,1/1/14,,,1,10.34,0.01,0.01,,Arecibo Filtration Plant,Arecibo,PV,North,0,22623,0
+61114,CANO,61114_CANO,Solar Photovoltaic,2/1/13,,,1,10.34,0.01,0.01,,Canovanas Filtration Plant,Canovanas,PV,East,0,22623,0
+61122,PE563,61122_PE563,Landfill Gas,11/1/20,,,0.8,10.34,0.47,0.376,,Toa Baja MSWL,Toa Baja,IC,North,0,21000,5.31893
+61122,PE564,61122_PE564,Landfill Gas,11/1/20,,,1.6,10.34,0.47,0.752,,Toa Baja MSWL,Toa Baja,IC,North,0,21000,5.31893
+61133,HUM01,61133_HUM01,Solar Photovoltaic,12/1/16,,,20,10.34,0.01,0.2,,"Humacao Solar Project, LLC",Humacao,PV,East,0,22623,0
+61136,BAT1,61136_BAT1,Batteries,8/1/15,,1.3,5.1,10.34,0,0,,Horizon Energy (PR) Hybrid,Salinas,BA,South,9236,6235,0.03
+61136,G001,61136_G001,Solar Photovoltaic,8/1/15,,,10,10.34,0.01,0.1,,Horizon Energy (PR) Hybrid,Salinas,PV,South,0,22623,0
+61137,PV1,61137_PV1,Solar Photovoltaic,12/1/19,,,4,10.34,0.01,0.04,,Medtronic Solar,Juncos,PV,East,0,22623,0
+61146,1,61146_1,Petroleum Liquids with ST,5/1/75,,,424.9,11.29,0.34,144.466,,Aguirre Plant,Salinas,ST,South,0,31200,1.05585
+61146,2,61146_2,Petroleum Liquids with ST,10/1/75,,,424.9,11.29,0.34,144.466,,Aguirre Plant,Salinas,ST,South,0,31200,1.05585
+61146,GT2-1,61146_GT2-1,Petroleum Liquids with GT,7/1/72,,,42,11.38,0.34,14.28,,Aguirre Plant,Salinas,GT,South,0,13945,5.27927
+61147,3,61147_3,Petroleum Liquids with ST,3/1/62,,,80.8,11.67,0.34,27.472,,Costa Sur Plant,,ST,South,0,31200,1.05585
+61147,4,61147_4,Petroleum Liquids with ST,12/1/63,,,78.1,11.67,0.34,26.554,,Costa Sur Plant,,ST,South,0,31200,1.05585
+61147,5,61147_5,Natural Gas Steam Turbine,9/1/72,,,384,11.67,0.22,84.48,,Costa Sur Plant,,ST,South,0,31200,1.05585
+61147,6,61147_6,Natural Gas Steam Turbine,9/1/73,,,381.6,11.67,0.22,83.952,,Costa Sur Plant,,ST,South,0,31200,1.05585
+61147,GT-1,61147_GT-1,Petroleum Liquids with GT,5/1/72,,,42,11.37,0.34,14.28,,Costa Sur Plant,,GT,South,0,13945,5.27927
+61148,10,61148_10,Petroleum Liquids with GT,2/1/69,,,78.6,11.72,0.34,26.724,,Central San Juan Plant,,ST,North,0,13945,5.27927
+61148,7,61148_7,Petroleum Liquids with ST,5/1/65,12/1/25,,91.5,11.72,0.34,31.11,,Central San Juan Plant,,ST,North,0,51303,1.05585
+61148,8,61148_8,Petroleum Liquids with ST,8/1/66,12/1/25,,92.7,11.72,0.34,31.518,,Central San Juan Plant,,ST,North,0,51303,1.05585
+61148,9,61148_9,Petroleum Liquids with ST,6/1/68,,,91.7,11.72,0.34,31.178,,Central San Juan Plant,,ST,North,0,51303,1.05585
+61148,CC5,61148_CC5,Petroleum Liquids with CC,10/1/08,,,429.4,9.93,0.34,145.996,,Central San Juan Plant,,CT,North,0,16492,4.55073
+61149,1,61149_1,Petroleum Liquids with ST,6/1/60,,,78.3,10.99,0.34,26.622,,Palo Seco Plant,,ST,North,0,31200,1.05585
+61149,1-Jan,61149_44927,Petroleum Liquids with GT,12/1/72,,,21,12.44,0.34,7.14,,Palo Seco Plant,,GT,North,0,11464,5.27927
+61149,2-Jan,61149_44928,Petroleum Liquids with GT,12/1/72,,,21,12.44,0.34,7.14,,Palo Seco Plant,,GT,North,0,11464,5.27927
+61149,2,61149_2,Petroleum Liquids with ST,3/1/61,,,78.8,10.99,0.34,26.792,,Palo Seco Plant,,ST,North,0,31200,1.05585
+61149,1-Feb,61149_44958,Petroleum Liquids with GT,12/1/72,,,42,12.44,0.34,14.28,,Palo Seco Plant,,GT,North,0,11464,5.27927
+61149,3,61149_3,Petroleum Liquids with ST,2/1/70,,,196.3,10.99,0.34,66.742,,Palo Seco Plant,,ST,North,0,31200,1.05585
+61149,1-Mar,61149_44986,Petroleum Liquids with GT,2/1/73,,,21,12.44,0.34,7.14,,Palo Seco Plant,,GT,North,0,11464,5.27927
+61149,2-Mar,61149_44987,Petroleum Liquids with GT,3/1/73,,,21,12.44,0.34,7.14,,Palo Seco Plant,,GT,North,0,11464,5.27927
+61149,4,61149_4,Petroleum Liquids with ST,7/1/70,,,216,10.99,0.34,73.44,,Palo Seco Plant,,ST,North,0,31200,1.05585
+61150,GT-1,61150_GT-1,Petroleum Liquids with GT,4/1/97,,,80.5,12.78,0.34,27.37,,Cambalache Plant,Arecibo,GT,North,0,11464,5.27927
+61150,GT-2,61150_GT-2,Petroleum Liquids with GT,5/1/77,,,80.5,12.78,0.34,27.37,,Cambalache Plant,Arecibo,GT,North,0,11464,5.27927
+61150,GT-3,61150_GT-3,Petroleum Liquids with GT,6/1/97,,,80.5,12.78,0.34,27.37,,Cambalache Plant,Arecibo,GT,North,0,11464,5.27927
+61151,GT-1,61151_GT-1,Petroleum Liquids with GT,4/1/09,,,220,10.28,0.34,74.8,,Mayaguez Plant,,GT,West,0,11464,5.27927
+61171,GT-1,61171_GT-1,Petroleum Liquids with GT,4/1/73,,,42,10.34,0.34,14.28,,Jobos,,GT,East,0,13945,5.27927
+61225,1,61225_1,Conventional Hydroelectric,1/1/49,,,18,10.34,0.1,1.8,0.15,Caonillas,,HY,North,0,47048,0
+61225,3,61225_3,Conventional Hydroelectric,9/1/52,,,4,10.34,0.1,0.4,0.15,Caonillas,,HY,North,0,47048,0
+61227,GT-1,61227_GT-1,Petroleum Liquids with GT,8/1/72,,,42,10.34,0.34,14.28,,Daguao,,GT,East,0,13945,5.27927
+61228,1,61228_1,Conventional Hydroelectric,8/1/42,,,5,10.34,0.1,0.5,0.15,Dos Bocas,Arecibo,HY,North,0,47048,0
+61228,2,61228_2,Conventional Hydroelectric,11/1/44,,,5,10.34,0.1,0.5,0.15,Dos Bocas,Arecibo,HY,North,0,47048,0
+61228,3,61228_3,Conventional Hydroelectric,11/1/45,,,5,10.34,0.1,0.5,0.15,Dos Bocas,Arecibo,HY,North,0,47048,0
+61229,1,61229_1,Conventional Hydroelectric,2/1/41,,,7.2,10.34,0.1,0.72,0.15,Garzas,,HY,South,0,47048,0
+61229,3,61229_3,Conventional Hydroelectric,3/1/41,,,5,10.34,0.1,0.5,0.15,Garzas,,HY,South,0,47048,0
+61230,1,61230_1,Conventional Hydroelectric,4/1/85,,,1.6,10.34,0.1,0.16,0.15,Patillas,,HY,East,0,47048,0
+61232,GT-1,61232_GT-1,Petroleum Liquids with GT,10/1/71,,,42,10.34,0.34,14.28,,Vega Baja,,GT,North,0,13945,5.27927
+61234,GT-1,61234_GT-1,Petroleum Liquids with GT,10/1/71,,,42,10.34,0.34,14.28,,Yabucoa,,GT,East,0,13945,5.27927
+61235,1,61235_1,Conventional Hydroelectric,2/1/56,,,29.5,10.34,0.1,2.95,0.15,Yauco,,HY,South,0,47048,0
+61235,2,61235_2,Conventional Hydroelectric,4/1/56,,,4.5,10.34,0.1,0.45,0.15,Yauco,,HY,South,0,47048,0
+61236,1,61236_1,Conventional Hydroelectric,12/1/29,,,5,10.34,0.1,0.5,0.15,Rio Blanco,,HY,East,0,47048,0
+61254,SOLAR,61254_SOLAR,Solar Photovoltaic,8/1/14,,,5.8,10.34,0.01,0.058,,Fort Buchanan Distributed Generation,Guaynabo,PV,North,0,22623,0
+61254,WIND,61254_WIND,Onshore Wind Turbine,8/1/14,,,0.6,10.34,0.06,0.036,,Fort Buchanan Distributed Generation,Guaynabo,WT,North,0,43000,0
+61659,SOLAR,61659_SOLAR,Solar Photovoltaic,12/1/15,,,2.2,10.34,0.01,0.022,,Janssen Ortho LLC,Gurabo,PV,East,0,22623,0
+62410,CHP01,62410_CHP01,Petroleum Liquids with IC,7/1/20,,,1.8,10.34,0.34,0.612,,Cervecera de Puerto Rico,Mayaguez,IC,West,0,21000,5.31893
+66056,GSET1,66056_GSET1,Natural Gas Internal Combustion Engine,4/1/18,,,3.2,10.34,0.43,1.376,,iPR Pharmaceuticals Inc.,,IC,East,0,21000,5.31893
+66057,CG1,66057_CG1,Natural Gas Internal Combustion Engine,1/1/20,,,9.2,10.34,0.43,3.956,,AbbVie LTD,,IC,North,0,21000,5.31893
+66057,CG2,66057_CG2,Natural Gas Internal Combustion Engine,11/1/19,,,9.2,10.34,0.43,3.956,,AbbVie LTD,,IC,North,0,21000,5.31893
+66096,COGEN,66096_COGEN,Petroleum Liquids with ST,7/1/09,,,3,10.34,0.34,1.02,,Bacardi Catano Plant,,ST,North,0,51303,1.05585
+66101,2MCUM,66101_2MCUM,Petroleum Liquids with IC,12/1/22,,,1.8,10.34,0.34,0.612,,Mayaguez Medical Center,,IC,West,0,21000,5.31893
+66127,CG1,66127_CG1,Natural Gas Internal Combustion Engine,11/1/22,,,4,10.34,0.43,1.72,,Hewlett Packard Puerto Rico,,IC,North,0,21000,5.31893
