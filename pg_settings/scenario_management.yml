@@ -40,10 +40,6 @@ settings_management:
         MaxCapReq:
           MaxCapTag_1:
             description: nat_gas
-            max_mw: 1371 # Update if the capacity of any existing units is decreased
+            max_mw: 81 # Update if the capacity of any existing units is decreased
         MaxCapTag_1:
-          Natural Gas Fired Combined Cycle: 1
-          Natural Gas Fired Combustion Turbine: 1
-          Natural Gas Internal Combustion Engine: 1
-          Natural Gas Steam Turbine: 1
           NaturalGas_: 1
