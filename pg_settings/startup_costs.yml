@@ -18,6 +18,7 @@ startup_fuel_use:
   Natural Gas Internal Combustion Engine: 3.5
   Natural Gas Steam Turbine: 13.7
   Petroleum Liquids with ST: 3.5
+  Microgrid_Diesel: 3.5
 
 # Digitally extracted VOM startup costs for each generator type from the NREL Western
 # wind/solar integration study
@@ -70,3 +71,4 @@ new_build_startup_costs:
   NGCC_CCS: gas_cc
   NaturalGas_CT: gas_large_ct
   NaturalGas_CC: gas_cc
+  Microgrid_Diesel: gas_large_ct

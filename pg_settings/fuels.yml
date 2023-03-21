@@ -72,6 +72,7 @@ tech_fuel_map:
   Petroleum Liquids with GT: distillate
   Petroleum Liquids with ST: distillate
   Petroleum Liquids with IC: distillate
+  Microgrid_Diesel_Moderate: distillate
   Landfill Gas: landfill_gas
   NaturalGas_CTAvgCF_Moderate: lng
   NaturalGas_CCAvgCF_Moderate: lng

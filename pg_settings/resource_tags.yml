@@ -39,6 +39,7 @@ model_tag_values:
     Petroleum Liquids: 1
     NaturalGas_: 1
     Landfill Gas: 1
+    Microgrid_Diesel: 1
   VRE:
     Onshore Wind Turbine: 1
     Offshore Wind Turbine: 1
@@ -46,6 +47,7 @@ model_tag_values:
     LandbasedWind_: 1 # Candidates
     OffshoreWind_: 1 # Candidates
     UtilityPV_: 1 # Candidates
+    Microgrid_Solar: 1
   Num_VRE_Bins:
     Onshore Wind Turbine: 1
     Offshore Wind Turbine: 1
@@ -75,6 +77,7 @@ model_tag_values:
     Solar Photovoltaic: 1
     UtilityPV: 1
     Landfill Gas: 1
+    Microgrid_Solar: 1
   New_Build:
     Biomass: -1
     Batteries: -1
@@ -93,6 +96,7 @@ model_tag_values:
     LandbasedWind_: 1
     OffshoreWind_: 1
     UtilityPV_: 1
+    Microgrid_: 1
   Hydro_level:
     Conventional Hydroelectric: 0.5
   MUST_RUN:

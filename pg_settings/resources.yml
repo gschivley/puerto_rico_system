@@ -135,7 +135,28 @@ atb_modifiers:
 
 # Copy and modify an existing ATB new generator. This takes place BEFORE any modifers to
 # the ATB data in atb_modifers. Set parameter to none (~) if not adding any modified generators.
-modified_atb_new_gen: ~
+modified_atb_new_gen:
+  microgrid_solar:
+    new_technology: Microgrid
+    new_tech_detail: Solar
+    new_cost_case: Moderate
+    atb_technology: UtilityPV
+    atb_tech_detail: Class1
+    atb_cost_case: Moderate
+    size_mw: 1
+    capex_mw: 4000000
+    fixed_o_m_mw: [mul, 1.3]
+  microgrid_diesel:
+    new_technology: Microgrid
+    new_tech_detail: Diesel
+    new_cost_case: Moderate
+    atb_technology: NaturalGas
+    atb_tech_detail: CTAvgCF
+    atb_cost_case: Moderate
+    size_mw: 1
+    capex_mw: 2600000
+    heat_rate: 12.31
+    fixed_o_m_mw: 12077
 
 # ATB doesn't have a WACC for battery tech. Need to provide a value here.
 atb_battery_wacc: UtilityPV
@@ -242,9 +263,9 @@ cost_multiplier_region_map:
 # If a value in one of the lists matches more than one technology, the cost multiplier
 # will only be applied to the first technology.
 cost_multiplier_technology_map:
-  utilitypv: [UtilityPV_Class1]
+  utilitypv: [UtilityPV_Class1, Microgrid_Solar]
   wind: [LandbasedWind_Class3]
-  natgas: [NaturalGas_CC, NaturalGas_CT]
+  natgas: [NaturalGas_CC, NaturalGas_CT, Microgrid_Diesel]
   battery: [Battery_*]
 
 
