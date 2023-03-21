@@ -1,0 +1,1 @@
+2023-03-21 15:39:32.825493Solar microgrid CF is now utility solar multiplied by 1.0
