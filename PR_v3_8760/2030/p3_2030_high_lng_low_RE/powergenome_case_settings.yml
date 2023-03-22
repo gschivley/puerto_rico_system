@@ -318,6 +318,8 @@ generator_columns:
 - tx_miles
 - tx_capex
 - interconnect_annuity
+- MGA
+- Resource_Type
 - Commit
 - ESR_2
 - Hydro_level
